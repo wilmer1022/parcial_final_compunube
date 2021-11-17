@@ -1,0 +1,37 @@
+CREAR RECURSO
+
+Grupo de recursos: myTextIAresources
+Region: (US) Este de EE. UU. <eastus>
+Nombre: myGmailSentimentAnalyzer
+
+CONFIGURACION
+
+Key and Endpoint:
+
+Key: <key>
+Endpoint: https://mygmailsentimentanalyzer.cognitiveservices.azure.com/
+
+CREAR APLICACION DE FUNCION
+
+Grupo de recursos: myTextIAresources
+Region: (US) Este de EE. UU. <eastus>
+Nombre: myGmailSentimentAnalyzer2210
+Pila: .NET
+
+CREACION FUNCION DESENCADENADA CON HTTP
+
+Env: Desarrollo en el portal
+Plantilla: HTTP trigger
+Nombre: GmailSentimentFunction
+
+CREAR APLICACION LOGICA
+
+Grupo de recursos: myTextIAresources
+Region: (US) Este de EE. UU. <eastus>
+Nombre: GmailSentimentApp
+
+CONEXION A TWITTER
+
+Nombre: MyGmailConnection
+
+

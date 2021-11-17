@@ -1,0 +1,1 @@
+jmeter -n -t F:\jmeter\final.jmx -l F:\jmeter\final.csv -e -o F:\jmeter\htmlreport
